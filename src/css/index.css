@@ -1,0 +1,117 @@
+/*  Login Form CSS*/
+
+.loginForm {
+    background-color:#005005;
+ }
+
+.form {
+    width: 300px;
+    padding: 16px;
+    background-color: #2e7d32;
+    border-radius: 6px;
+}
+
+.form-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.field {
+    background-color: #60ad5e;
+    margin: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.field > input {
+    background-color: transparent;
+    border: 0;
+    padding-left: 8px;
+    font-size: 14px;
+    color: white;
+}
+.field > input:focus {
+    outline: 0;
+    
+}
+.field > .material-icons {
+    padding: 4px;
+    background-color: #60ad5e;;
+    color: #444;
+}
+.logo {
+    margin-bottom: 16px;
+}
+.logo-type {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.shadow {
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.25);
+}
+
+.btn-field {
+    margin: 10px;
+    margin-left: 5%;
+}
+.login-form-button {
+    background-color: #60ad5e;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 30px;
+    margin: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.login-form-button:focus {
+    user-select: none;
+    outline: #005005;
+}
+
+.login-form-button:hover {
+    border: 1px solid #60ad5e;
+    background-color: #005005;
+}
+
+/*  HomeView CSS */
+
+/* Side Menu */
+
+.side-menu {
+    background-color: #5c8d5d;
+    padding: 10px;
+    color: #d1f0d3;
+}
+
+.menu-item {
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+}
+.menu-item.active {
+    color: #7dff84;
+}
+
+.menu-item:hover {
+    color: #7dff84;
+}
+.nav-icon {
+    margin: 5px;
+}
+.menu-title {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.up-arrow {
+    border : 12px solid #fff;
+    border-top-color: red;
+    border-right-color: green;
+    border-left-color: blue;
+    width: 100;
+    height: 30px;
+}
